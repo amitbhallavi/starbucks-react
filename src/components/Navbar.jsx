@@ -12,7 +12,7 @@ export default function Navbar() {
         {/* Left — Logo + Nav links */}
         <div className="flex items-center gap-6">
           <img
-            src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png"
+            src="https://upload.wikimedia.org/wikipedia/sco/d/d3/Starbucks_Corporation_Logo_2011.svg"
             alt="Starbucks"
             className="h-10 w-10 object-contain cursor-pointer"
           />

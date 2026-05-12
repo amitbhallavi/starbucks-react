@@ -12,7 +12,7 @@ export default function StarbucksHome() {
       {/* Credit banner */}
       <div className="flex justify-center items-center py-3 text-sm text-gray-600 border-b border-gray-100">
         Visit&nbsp;
-        <a href="https://amitbhallvi.github.io/Profile-Card/" target="_blank" rel="noreferrer" className="text-[#006242] underline font-medium">
+        <a href="https://amit-info.vercel.app/" target="_blank" rel="noreferrer" className="text-[#006242] underline font-medium">
           Coding By Amit Thakur
         </a>
         &nbsp;and&nbsp;

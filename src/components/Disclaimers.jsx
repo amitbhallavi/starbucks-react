@@ -9,7 +9,7 @@ export default function Disclaimers() {
           {i === 1 && (
             <>
               {" "}Visit{" "}
-              <a href="https://amitbhallvi.github.io/Profile-Card/" target="_blank" rel="noreferrer" className="underline text-[#006242]">
+              <a href="https://amit-info.vercel.app/" target="_blank" rel="noreferrer" className="underline text-[#006242]">
                 Coding By Amit Thakur
               </a>{" "}and{" "}
               <a href="https://about.starbucks.com/backtostarbucks/" target="_blank" rel="noreferrer" className="underline text-[#006242]">
