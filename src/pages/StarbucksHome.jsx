@@ -7,6 +7,20 @@ import { heroSections } from "../data/starbucksData";
 export default function StarbucksHome() {
   return (
     <div className="bg-white min-h-screen">
+
+      {/* ⚠️ CLONE DISCLAIMER BANNER — DO NOT REMOVE */}
+      <div className="w-full bg-yellow-400 text-black text-center py-2 px-4 text-sm font-semibold z-50">
+        ⚠️ This is a <strong>UI Clone</strong> built for learning purposes only. Not affiliated with Starbucks Corporation.{" "}
+        <a
+          href="https://amit-info.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+          className="underline font-bold"
+        >
+          Built by Amit Thakur
+        </a>
+      </div>
+
       <Navbar />
 
       {/* Credit banner */}
@@ -22,7 +36,6 @@ export default function StarbucksHome() {
         &nbsp;to learn more.
       </div>
 
-      {/* All 4 Hero Sections */}
       {heroSections.map((section) => (
         <HeroSection key={section.id} section={section} />
       ))}
